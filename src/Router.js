@@ -52,7 +52,7 @@ export var NavBar = () => {
                 key={route.route}
                 onClick={() => setCurrentPage(route.route)}
             >
-                <span>{route.text}</span>
+                {route.text}
             </Link>
         ))
 
